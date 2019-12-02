@@ -1,0 +1,38 @@
+{
+  "name": "generator-brainsum-drupal",
+  "version": "1.5.0-alpha.0",
+  "description": "Drupal 8 coding standards ready startertheme powered by Gulp 4 based on Classy.",
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brainsum/generator-brainsum-drupal.git"
+  },
+  "author": "Krisztian Pinter <kpinter@brainsum.com>",
+  "private": true,
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "drupal",
+    "drupal8",
+    "gulp",
+    "gulp4",
+    "sass",
+    "startertheme",
+    "theme",
+    "twig",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "lodash.kebabcase": "^4.1.1",
+    "lodash.snakecase": "^4.1.1",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "yeoman-generator": "^4.2.0",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,62 @@
+{
+  "name": "<%= themeMachineName %>",
+  "version": "1.0.0",
+  "description": "<%= themeDescription %>",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brainsum/drupal8-startertheme.git"
+  },
+  "author": "Krisztian Pinter <kpinter@brainsum.com>",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "prod": "gulp prod",
+    "lint": "gulp lint",
+    "sassDev": "gulp sassDev",
+    "sassProd": "gulp sassProd",
+    "sassLint": "gulp sassLint",
+    "scripts": "gulp scripts",
+    "scriptsLint": "gulp scriptsLint"
+  },
+  "keywords": [
+    "drupal",
+    "drupal8",
+    "gulp",
+    "gulp4",
+    "sass",
+    "startertheme",
+    "theme",
+    "twig"
+  ],
+  "dependencies": {
+    "@glidejs/glide": "^3.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "browser-sync": "^2.26.7",
+    "drupalcritical": "^1.1.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "fibers": "^4.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-npm-dist": "^1.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-split-media-queries": "^1.0.3",
+    "gulp-stylelint": "^10.0.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss-custom-properties": "^9.0.2",
+    "sass": "^1.23.7",
+    "stylelint": "^11.1.1",
+    "stylelint-config-scss": "^1.0.0-security",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-scss": "^3.12.1"
+  }
+}
