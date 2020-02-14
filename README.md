@@ -22,11 +22,15 @@ Standards. You will can equally run build processes by gulp commands or npm scri
 
 ## Installation
 
-You will need **node.js**, **yo**, **npm**, **gulp-cli (min 4.0.0)** globally installed
-to working with the generator and generated theme. If your node.js version is different
-you may need to install nvm too.
+You will need **node.js** and **yo**, **npm**, **generator-brainsum-drupal**,
+**gulp-cli (min 4.0.0)** globally installed to working with the generator and generated
+theme. If your node.js version is different you may need to install nvm too.
 
 ```bash
+npm install -g npm
+npm install -g gulp-cli
+npm install -g yo
+npm install -g yo generator-brainsum-drupal
 cd {project}/web/themes/custom/{themeMachineName}
 nvm use // optional
 yo brainsum-drupal
