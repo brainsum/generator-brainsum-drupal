@@ -30,7 +30,7 @@ theme. If your node.js version is different you may need to install nvm too.
 npm install -g npm
 npm install -g gulp-cli
 npm install -g yo
-npm install -g yo generator-brainsum-drupal
+npm install -g generator-brainsum-drupal
 ```
 
 ## Usage
