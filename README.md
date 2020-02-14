@@ -31,6 +31,11 @@ npm install -g npm
 npm install -g gulp-cli
 npm install -g yo
 npm install -g yo generator-brainsum-drupal
+```
+
+## Usage
+
+```bash
 cd {project}/web/themes/custom/{themeMachineName}
 nvm use // optional
 yo brainsum-drupal

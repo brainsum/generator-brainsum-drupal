@@ -1,6 +1,6 @@
 {
   "name": "generator-brainsum-drupal",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Drupal 8 coding standards ready startertheme powered by Gulp 4 based on Classy.",
   "files": [
     "generators"
