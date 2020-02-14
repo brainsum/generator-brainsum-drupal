@@ -1,6 +1,6 @@
 /**
  * @file
- * Attaches behaviors for startertheme.
+ * Attaches behaviors for <%= themeName %>.
  *
  * Please use `context` parameter and/or .one() Drupal's jQuery function if
  * you don't want to run a behavior on each page reload.
@@ -8,7 +8,7 @@
  * @see https://www.lullabot.com/articles/understanding-javascript-behaviors-in-drupal
  *
  * @example <caption>Example for context usage</caption>
- *   Drupal.behaviors.starterthemeEntries = {
+ *   Drupal.behaviors.<%= themeMachineName %>Entries = {
  *     attach: function entriesFunction(context) {
  *       // get Read more links for entries
  *       var $readMoreLink = $('.entry .read-more', context)
@@ -41,7 +41,7 @@
 'use strict';
 
 (function drupalJs($) {
-  Drupal.behaviors.astarterthemeThemeFunction = {
+  Drupal.behaviors.<%= themeMachineName %>ThemeFunction = {
     attach: function () {}
   };
 })(jQuery);

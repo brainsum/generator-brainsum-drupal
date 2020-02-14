@@ -5,9 +5,9 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brainsum/drupal8-startertheme.git"
+    "url": "https://github.com/brainsum/<%= slugName %>.git"
   },
-  "author": "Krisztian Pinter <kpinter@brainsum.com>",
+  "author": "<%= authorName %> <<%= authorEmail %>>",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -26,7 +26,6 @@
     "gulp",
     "gulp4",
     "sass",
-    "startertheme",
     "theme",
     "twig"
   ],

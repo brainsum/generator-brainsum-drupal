@@ -1,5 +1,5 @@
 {
-  "base": "http://projectname.test",
+  "base": "<%= siteUrl %>",
   "pages": [
     {
       "path": "/",

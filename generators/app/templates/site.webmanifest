@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "<%= siteName %>",
+    "short_name": "<%= siteMachineName %>",
     "icons": [
         {
             "src": "/images/dist/favicon/android-chrome-192x192.png",

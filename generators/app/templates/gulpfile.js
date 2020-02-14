@@ -53,7 +53,7 @@ const config = {
     breakpoint: 48, // 768px and above (from your mqs, here we use in ems)
   },
   browserSync: {
-    proxy: '<%= drupalUrl %>',
+    proxy: '<%= siteUrl %>',
     autoOpen: false,
     browsers: [
       'Google Chrome',

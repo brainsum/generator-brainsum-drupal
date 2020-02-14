@@ -1,4 +1,4 @@
-starter_theme.small:
+<%= themeMachineName %>.small:
   label: small
   mediaQuery: ''
   weight: 0
@@ -7,28 +7,28 @@ starter_theme.small:
     - 1.5x
     - 2x
     - 3x
-starter_theme.medium:
+<%= themeMachineName %>.medium:
   label: medium
   mediaQuery: 'all and (min-width: 30em)'
   weight: 1
   multipliers:
     - 1x
     - 2x
-starter_theme.large:
+<%= themeMachineName %>.large:
   label: large
   mediaQuery: 'all and (min-width: 40em)'
   weight: 2
   multipliers:
     - 1x
     - 2x
-starter_theme.xlarge:
+<%= themeMachineName %>.xlarge:
   label: xlarge
   mediaQuery: 'all and (min-width: 60em)'
   weight: 3
   multipliers:
     - 1x
     - 2x
-starter_theme.xxlarge:
+<%= themeMachineName %>.xxlarge:
   label: xxlarge
   mediaQuery: 'all and (min-width: 75em)'
   weight: 4

@@ -1,6 +1,6 @@
-# BRAINSUM's Drupal 8 startertheme
+# <%= themeName %>
 
-* Created by: [Krisztian Pinter](kpinter@brainsum.com)
+* Created by: [<%= authorName %>](<%= authorEmail %>)
 * Created in: 2019.
 * Updated on: 2019.11.21.
 
@@ -14,7 +14,7 @@
 
 ## About
 
-Drupal 8 startertheme based on core's Classy base theme. Build process powered
+<%= themeName %> based on core's Classy base theme. Build process powered
 by [Gulp.js 4](https://gulpjs.com/docs/en/getting-started/quick-start) and asset
 files (sass, css, js) structured, linted and compiled according to Drupal Coding
 Standards. You can equally run build processes by gulp commands or npm scripts.
@@ -22,12 +22,12 @@ Standards. You can equally run build processes by gulp commands or npm scripts.
 ## Installation
 
 You will need **node.js**, **npm**, **gulp-cli (min 4.0.0)** globally installed
-to working with this startertheme.
+to working with this theme. If your node.js version is different you may need to
+install nvm too.
 
 ```bash
-cd {project}/web/themes/custom/
-git clone git@github.com:brainsum/drupal8-startertheme.git projectname_theme
-cd projectname_theme
+cd {project}/web/themes/custom/<%= themeMachineName %>
+nvm use // optional
 npm install
 ```
 
@@ -110,7 +110,7 @@ sliders, a specific view, a single page or block.
 Don't forget to add dependencies for each libraries, and attributes for files
 like: `minified`, `external`, `async` and so on.
 
-Furthere more we don't want to be aggregated these libraries by Drupal, so you
+Further more we don't want to be aggregated these libraries by Drupal, so you
 will need to add `{preprocess: false}` too.
 
 Example for them:
